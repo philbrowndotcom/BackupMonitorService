@@ -1,0 +1,43 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+artifacts/
+*.nupkg
+*.snupkg
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Test results and coverage
+[Tt]est[Rr]esults/
+*.trx
+coverage*.json
+coverage*.xml
+*.coverage
+
+# Logs
+*.log
+
+# Machine-specific config that may contain SAS tokens.
+# The service runs as Production by default, so put real Destination URLs here.
+appsettings.Production.json
+appsettings.*.local.json
+*.env
+.env
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
